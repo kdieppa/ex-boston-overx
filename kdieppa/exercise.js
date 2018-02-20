@@ -16,7 +16,7 @@ exercise.findBiggerSalaries = function(){
     for (var i = 0; i < dataLength; i++) {
         // update current salary
         // store in currentMax if it is greater than currentMax
-        if(Number(exercise.salaries[i][18]) > Number(salary.value)){
+        if(Number(exercise.salaries[i][18]) > Number(exercise.salary.value)){
             biggerSalaries.push(Number(exercise.salaries[i][18]));
         }
     
