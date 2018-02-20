@@ -29,8 +29,8 @@ exercise.findBiggerSalaries = function(){
     //
     //     Example: salaries larger than 300K is 8
     // ---------------------------------------------------
-    return biggerSalaries
 }
+    return biggerSalaries
 };
 
 // filter function
