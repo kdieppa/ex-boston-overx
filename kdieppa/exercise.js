@@ -12,12 +12,12 @@ exercise.load = function(salary, boston){
 // get salaries larger than given salary
 exercise.findBiggerSalaries = function(){
     var biggerSalaries = [];
-    var dataLength = boston.data.length;
+    var dataLength = exercise.salaries.length;
     for (var i = 0; i < dataLength; i++) {
         // update current salary
         // store in currentMax if it is greater than currentMax
-        if(Number(boston.data[i][18]) > Number(salary.value)){
-            biggerSalaries.push(Number(boston.data[i][18]));
+        if(Number(exercise.salaries[i][18]) > Number(salary.value)){
+            biggerSalaries.push(Number(exercise.salaries[i][18]));
         }
     
 
