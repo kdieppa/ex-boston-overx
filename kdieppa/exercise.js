@@ -21,16 +21,6 @@ exercise.findBiggerSalaries = function(){
         if(Number(exercise.salaries[i][18]) > Number(exercise.salary)){
             biggerSalaries.push(Number(exercise.salaries[i][18]));
         }
-    
-
-    // ---------------------------------------------------
-    //   YOUR CODE
-    //
-    //     Return a filtered list of salaries.
-    //     Return salaries larger than exercise.salary
-    //
-    //     Example: salaries larger than 300K is 8
-    // ---------------------------------------------------
 }
     biggerSalaries.sort();
     return biggerSalaries
@@ -44,11 +34,5 @@ exercise.largerSalary = function largerSalary(item){
     else{
         return False
     }
-    // ---------------------------------------------------
-    //   YOUR CODE
-    //
-    //     Return a boolean (true/false) if item
-    //     is larger than exercise.salary
-    // ---------------------------------------------------
 
 };
