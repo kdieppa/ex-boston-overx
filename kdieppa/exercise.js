@@ -30,10 +30,11 @@ exercise.findBiggerSalaries = function(){
     //     Example: salaries larger than 300K is 8
     // ---------------------------------------------------
     return biggerSalaries
+}
 };
 
 // filter function
-exercise.largerSalary = function largerSalary(item){
+// exercise.largerSalary = function largerSalary(item){
 
     // ---------------------------------------------------
     //   YOUR CODE
@@ -42,4 +43,4 @@ exercise.largerSalary = function largerSalary(item){
     //     is larger than exercise.salary
     // ---------------------------------------------------
 
-};
+//};
