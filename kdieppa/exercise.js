@@ -30,6 +30,7 @@ exercise.findBiggerSalaries = function(){
     //     Example: salaries larger than 300K is 8
     // ---------------------------------------------------
 }
+    biggerSalaries.sort();
     return biggerSalaries
 };
 
